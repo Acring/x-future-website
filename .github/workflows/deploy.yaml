@@ -16,8 +16,8 @@ jobs:
         with:
           node-version: "16.x"
       - run: npm install -g yarn
-             yarn
-             yarn build
+      - run: yarn
+      - run: yarn build
 
       - name: SSH to server and Deploy
         uses: easingthemes/ssh-deploy@main

@@ -24,7 +24,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_PRIVATE_KEY }}
           ARGS: "-avz --delete"
-          SOURCE: ".next"
+          SOURCE: "./.next"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: "~/x-future-website"

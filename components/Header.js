@@ -10,7 +10,7 @@ export default function Header() {
             href="/"
             className="text-4xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red-300 to-amber-300 md:text-gray-900"
           >
-            千浔未来
+            千浔未来12123
           </a>
           <button
             className="px-3 py-1 bg-white rounded-full cursor-pointer bg-opacity-30 focus:outline-none md:hidden"

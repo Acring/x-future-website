@@ -4,11 +4,11 @@ import localFont from 'next/font/local';
 // pages/_app.js
 
 // Font files can be colocated inside of `pages`
-const myFont = localFont({ src: './SmileySans-Oblique.otf.woff2' });
+// const myFont = localFont({ src: './SmileySans-Oblique.otf.woff2' });
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <main className={myFont.className}>
+    <main >
       <Component {...pageProps} />
     </main>
   );

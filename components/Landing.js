@@ -5,12 +5,11 @@ export default function Landing() {
         <div className="my-20 space-y-10 text-center sm:my-16 md:space-y-14">
           <div className="space-y-5 md:space-y-8">
             <h1 className="text-3xl font-semibold text-white sm:text-5xl md:text-6xl md:text-gray-800">
-              Welcome to Uranium.
+              这里是千浔未来
             </h1>
             <h2 className="text-lg text-gray-100 md:text-2xl md:mx-10 md:text-gray-600">
-              Uranium is a powerful chemical element of atomic number
-              92 used in nuclear fission. That's precisely what we do:
-              we make you go nuclear.
+              千浔未来是一款基于类 GPT 模型和 Midjourney
+              的人工智能工具，帮助每一个人解放生产力，提高学习，工作，创作的效率。
             </h2>
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
@@ -19,7 +18,7 @@ export default function Landing() {
                 href="#"
                 className="px-5 py-2 font-semibold text-gray-200 duration-500 ease-in-out shadow-lg hover:-translate-y-1.5 rounded-2xl md:text-xl md:px-8 md:py-3 bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-br hover:to-blue-500 hover:from-purple-600"
               >
-                Get this template{' '}
+                马上试用{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -34,9 +33,9 @@ export default function Landing() {
                 </svg>
               </a>
               <div className="pt-4 text-sm text-gray-200 sm:pt-2 md:text-gray-600">
-                Modular, easy-to-edit Next.js + Tailwind template
+                美观，简洁，易用，快速，支持多平台,无需魔法
                 <br />
-                You'll enjoy the experience.
+                随时随地，一键生成，让你的创作更加高效
               </div>
             </div>
           </div>
@@ -44,11 +43,7 @@ export default function Landing() {
       </div>
       <div className="relative w-full px-4 text-center sm:px-0 md:mx-auto md:my-12 md:w-3/5">
         <div className="relative z-10">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://godly.website"
-          >
+          <a target="_blank" rel="noreferrer" href="x.x-future.shop">
             <img
               className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"
               src="images/product.png"
@@ -60,50 +55,22 @@ export default function Landing() {
             Caption if needed
           </p> */}
       </div>
-      <div className="mt-20 space-y-6 text-center mb-28 md:mt-32">
+      {/* <div className="mt-20 space-y-6 text-center mb-28 md:mt-32">
         <h1 className="text-lg font-semibold tracking-wide text-center text-gray-100 text-opacity-75 uppercase md:mx-10 md:text-gray-600">
           Trusted by industry leaders
         </h1>
         <div className="w-3/5 p-6 mx-auto bg-gray-100 rounded-2xl bg-opacity-70 md:bg-opacity-100 md:p-10">
           <div className="flex flex-wrap items-center justify-center flex-shrink -mt-6 -ml-6 space-x-6 space-y-6">
-            <img
-              className="h-5 mt-6 ml-6 md:h-8"
-              src="images/stripe.svg"
-              alt=""
-            />
-            <img
-              className="h-7 md:h-5"
-              src="images/stockx.png"
-              alt=""
-            />
-            <img
-              className="h-9 md:h-6"
-              src="images/openai.png"
-              alt=""
-            />
-            <img
-              className="h-5 md:h-8"
-              src="images/moderna.png"
-              alt=""
-            />
-            <img
-              className="h-5 md:h-5"
-              src="images/oracle.png"
-              alt=""
-            />
-            <img
-              className="h-5 md:h-9"
-              src="images/honey.png"
-              alt=""
-            />
-            <img
-              className="h-5 md:h-8"
-              src="images/digitalocean.svg"
-              alt=""
-            />
+            <img className="h-5 mt-6 ml-6 md:h-8" src="images/stripe.svg" alt="" />
+            <img className="h-7 md:h-5" src="images/stockx.png" alt="" />
+            <img className="h-9 md:h-6" src="images/openai.png" alt="" />
+            <img className="h-5 md:h-8" src="images/moderna.png" alt="" />
+            <img className="h-5 md:h-5" src="images/oracle.png" alt="" />
+            <img className="h-5 md:h-9" src="images/honey.png" alt="" />
+            <img className="h-5 md:h-8" src="images/digitalocean.svg" alt="" />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

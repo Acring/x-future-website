@@ -23,22 +23,18 @@ const Feature = ({ featureText }) => {
 
 export default function Pricing() {
   return (
-    <section
-      id="pricing"
-      className="py-20 md:pb-32 bg-gradient-to-t from-sky-300 to-sky-100"
-    >
+    <section id="pricing" className="py-20 md:pb-32 bg-gradient-to-t from-sky-300 to-sky-100">
       <div className="mx-8 max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto">
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100 md:mb-28">
           <div className="max-w-3xl mx-auto md:text-center">
             <div className="inline-block px-3 py-1 text-sm font-semibold text-black rounded-lg bg-[#bbd0dd] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40 mb-4">
-              Pricing for You
+              谈谈价格
             </div>
             <h2 className="mb-5 text-3xl font-semibold text-gray-800 md:text-5xl">
-              Best of all? Affordable pricing.
+              为了持续的创新，也是为了更好的体验
             </h2>
             <p className="text-xl md:text-2xl">
-              Our products are designed to provide a high-quality
-              experiece – all at an affordable price.
+              但是相比割韭菜的收费方式，我们更愿意选择一种更加合理的方式，让你的每一分钱都花在刀刃上。
             </p>
           </div>
         </div>
@@ -46,28 +42,24 @@ export default function Pricing() {
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="flex flex-col h-full p-6 space-y-4 bg-white bg-opacity-75 border border-white border-opacity-75 shadow-xl undefined rounded-xl md:space-y-6 md:p-8">
               <div className="flex items-center justify-center">
-                <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">
-                  Hobby
-                </h4>
+                <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl"></h4>
               </div>
               <h5 className="text-xl font-semibold text-center text-gray-800">
-                <div>$9 / month</div>
+                <div>9.9元 / 月</div>
                 <div className="mt-4 text-base font-normal text-gray-700">
-                  For those indies working alone and trying out new
-                  things.
+                  尝鲜版，仅限前500名用户，仅限一个月
                 </div>
               </h5>
               <hr className="border-t border-gray-300" />
               <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
-                <Feature featureText="Convallis posuere." />
-                <Feature featureText="Sed risus pretium." />
-                <Feature featureText="Vestibulum morbi blandit." />
+                <Feature featureText="chatgpt 无限使用" />
+                <Feature featureText="Midjourney 绘图 10次" />
               </ul>
               <a
                 href="#"
                 className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none"
               >
-                Get Started{' '}
+                立即购买
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -86,36 +78,29 @@ export default function Pricing() {
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="flex flex-col h-full p-6 space-y-4 transform bg-white border border-white border-opacity-50 shadow-2xl rounded-xl bg-opacity-90 md:space-y-6 md:p-8 xl:scale-110">
               <p className="absolute top-0 w-1/2 px-4 py-1 text-sm font-semibold text-center transform -translate-x-1/2 -translate-y-4 rounded-full left-1/2 bg-sky-500 text-sky-100">
-                Most preferred
+                最受欢迎
               </p>
               <div className="flex items-center justify-center">
-                <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">
-                  Startup
-                </h4>
+                <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">正式会员</h4>
               </div>
               <h5 className="text-xl font-semibold text-center text-gray-800">
-                <div>$49 / month</div>
+                <div>29.9元 / 月</div>
                 <div className="mt-4 text-base font-normal text-gray-700">
-                  For small teams who need our product to get ahead of
-                  their work.
+                  如果你觉得我们的产品对你有帮助，可以选择这个版本
                 </div>
               </h5>
               <hr className="border-t border-gray-300" />
               <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
-                <Feature featureText="Convallis posuere." />
-                <Feature featureText="Sed risus pretium." />
-                <Feature featureText="Vestibulum morbi blandit." />
-                <Feature featureText="Convallis posuere morbi leo urna." />
-                <Feature featureText="Magnis dis." />
-                <Feature featureText="Cursus risus." />
-                <Feature featureText="Convallis posuere morbi leo." />
-                <Feature featureText="Nulla malesuada pellentesque." />
+                <Feature featureText="chatgpt 无限使用" />
+                <Feature featureText="midjourney 绘图 200次" />
+                <Feature featureText="绘图高清化，生成 4k 高清图" />
+                <Feature featureText="更多功能持续更新" />
               </ul>
               <a
                 href="#"
                 className="px-5 py-2 font-semibold text-gray-100 transition duration-300 ease-in-out transform rounded-full shadow bg-gradient-to-t from-sky-800 to-sky-600 hover:-translate-y-1 hover:shadow-lg focus:outline-none"
               >
-                Get Started{' '}
+                立即购买
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -134,31 +119,17 @@ export default function Pricing() {
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="flex flex-col h-full p-6 space-y-4 bg-white bg-opacity-75 border border-white border-opacity-75 shadow-xl undefined rounded-xl md:space-y-6 md:p-8">
               <div className="flex items-center justify-center">
-                <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">
-                  Enterprise
-                </h4>
+                <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">Enterprise</h4>
               </div>
               <h5 className="text-xl font-semibold text-center text-gray-800">
-                <div>Custom Price</div>
+                <div>按年付费</div>
                 <div className="mt-4 text-base font-normal text-gray-700">
-                  For bigger organizations that have a lot of people.
+                  我们不希望你在没有确定的情况下就购买这个版本，所以暂时不会开放
                 </div>
               </h5>
               <hr className="border-t border-gray-300" />
-              <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
-                <Feature featureText="Convallis posuere." />
-                <Feature featureText="Sed risus pretium." />
-                <Feature featureText="Vestibulum morbi blandit." />
-                <Feature featureText="Convallis posuere morbi leo urna." />
-                <Feature featureText="Magnis dis." />
-                <Feature featureText="Cursus risus." />
-                <Feature featureText="Convallis posuere morbi leo." />
-                <Feature featureText="Nulla malesuada pellentesque." />
-                <Feature featureText="Convallis posuere." />
-                <Feature featureText="Sed risus pretium." />
-                <Feature featureText="Vestibulum morbi blandit." />
-              </ul>
-              <a
+              <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg"></ul>
+              {/* <a
                 href="#"
                 className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none"
               >
@@ -175,7 +146,7 @@ export default function Pricing() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

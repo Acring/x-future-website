@@ -6,15 +6,26 @@ import Landing from '../components/Landing';
 import Features from '../components/Features';
 import Demo from '../components/Demo';
 import Pricing from '../components/Pricing';
-import Testimonies from '../components/Testimonies';
 import Action from '../components/Action';
 import Footer from '../components/Footer';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 const Home: NextPage = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    // 如果存在token， 则保存token到localstorage, 并跳转到首页
+    const token = router.query.token;
+    if (token) {
+      localStorage.setItem('token', token as string);
+      router.push('/');
+    }
+  });
   return (
     <>
       <Head>
-        <title>Uranium – a ready-to-use website template</title>
+        <title>千浔未来</title>
         <meta content="Example" name="description" />
         <meta property="og:url" content="example.com" />
         <meta property="og:description" content="Example" />
@@ -35,7 +46,7 @@ const Home: NextPage = () => {
         <Features />
         <Demo />
         <Pricing />
-        <Testimonies />
+        {/* <Testimonies /> */}
         <Action />
         <Footer />
       </div>

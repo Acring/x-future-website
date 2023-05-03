@@ -10,7 +10,7 @@ export default function Header() {
             href="/"
             className="text-4xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red-300 to-amber-300 md:text-gray-900"
           >
-            Uranium
+            千浔未来
           </a>
           <button
             className="px-3 py-1 bg-white rounded-full cursor-pointer bg-opacity-30 focus:outline-none md:hidden"
@@ -37,8 +37,7 @@ export default function Header() {
         </div>
         <div
           className={
-            'mt-3 flex-grow items-start md:flex lg:mt-0' +
-            (navbarOpen ? ' flex' : ' hidden')
+            'mt-3 flex-grow items-start md:flex lg:mt-0' + (navbarOpen ? ' flex' : ' hidden')
           }
         >
           <div className="flex-col pl-4 text-xl md:flex-grow md:pl-0">
@@ -48,7 +47,7 @@ export default function Header() {
                   href="#features"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
-                  Features
+                  功能
                 </a>
               </li>
               <li>
@@ -56,15 +55,7 @@ export default function Header() {
                   href="#demo"
                   className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
-                  Demo
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
-                >
-                  Sign in
+                  演示
                 </a>
               </li>
               <li>
@@ -72,7 +63,7 @@ export default function Header() {
                   href="/"
                   className="bg-white rounded-full bg-opacity-40 px-4 text-lg text-white md:text-black shadow-sm transition-colors duration-75 group gap-[0.25em] inline-flex items-center py-1.5 hover:cursor-pointer hover:bg-opacity-90"
                 >
-                  Sign up
+                  登录
                   <svg
                     viewBox="0 0 16 16"
                     height="1em"

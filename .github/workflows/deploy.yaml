@@ -28,6 +28,9 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: "~/x-future-website"
+          SCRIPT_BEFORE: |
+            cd ~/x-future-website
+            git pull
           SCRIPT_AFTER: |
             cd ~/x-future-website
             pm2 restart app

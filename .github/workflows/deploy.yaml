@@ -31,6 +31,7 @@ jobs:
           SCRIPT_BEFORE: |
             cd ~/x-future-website
             git pull
+            yarn
           SCRIPT_AFTER: |
             cd ~/x-future-website
             pm2 restart app

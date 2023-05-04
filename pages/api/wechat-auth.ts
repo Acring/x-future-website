@@ -7,7 +7,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
   const params = {
     appid: appId,
-    redirect_uri: `https://${process.env.HOSTNAME}/api/wechat-auth-callback`,
+    redirect_uri: `https://${process.env.CALLBACK_HOST}/api/wechat-auth-callback`,
     response_type: 'code',
     scope: scope,
     state: process.env.WECHAT_STATE,

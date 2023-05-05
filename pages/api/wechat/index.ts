@@ -8,7 +8,7 @@ export const config = {
   },
 };
 
-const TOKEN = process.env.TOKEN;
+const TOKEN = process.env.WECHAT_TOKEN;
 
 export default function wechatHandler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'GET') {
@@ -22,6 +22,7 @@ export default function wechatHandler(req: NextApiRequest, res: NextApiResponse)
     sha1.update(str);
     const result = sha1.digest('hex');
     if (result === signature) {
+      console.log('wechat auth success')
       res.send(echostr);
     } else {
       res.send('Error');

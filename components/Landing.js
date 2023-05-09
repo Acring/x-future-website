@@ -8,14 +8,14 @@ export default function Landing() {
               这里是千浔未来
             </h1>
             <h2 className="text-lg text-gray-100 md:text-2xl md:mx-10 md:text-gray-600">
-              千浔未来是一款基于类 GPT 模型和 Midjourney
+              千浔未来是一款基于 GPT 模型和 Midjourney 以及更多 AI 模型
               的人工智能工具，帮助每一个人解放生产力，提高学习，工作，创作的效率。
             </h2>
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="space-y-2">
               <a
-                href="x.x-future.shop"
+                href="https://x.x-future.shop"
                 className="px-5 py-2 font-semibold text-gray-200 duration-500 ease-in-out shadow-lg hover:-translate-y-1.5 rounded-2xl md:text-xl md:px-8 md:py-3 bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-br hover:to-blue-500 hover:from-purple-600"
               >
                 马上试用{' '}

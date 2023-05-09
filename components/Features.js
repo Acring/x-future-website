@@ -10,7 +10,8 @@ export default function Features() {
               </div>
               <h1 className="text-2xl font-semibold text-gray-100 md:text-5xl">功能为你而生</h1>
               <p className="text-xl text-gray-200 md:text-2xl">
-                每一个功能都是为了让你更简单，更高效的体验到未来已来，释放你的生产力，想象力，创造力。
+                每一个功能都是为了让你更简单，更高效的体验到未来已来，释放你的生产力，想象力，创造力。功能会持续更新，让
+                AI 无缝加入你的生活。
               </p>
             </div>
           </div>
@@ -77,7 +78,7 @@ export default function Features() {
               </svg>
               <h3 className="text-xl font-semibold text-white">美观界面</h3>
               <p className="text-gray-200">
-                一个好的产品，不仅仅是功能强大，还需要有一个美观的界面，我们的产品不仅仅是功能强大，还有一个美观的界面。
+                一个好的产品，不仅仅是功能强大，还需要有一个美观易用的界面，我们的产品不仅仅是功能强大，还有一个美观的界面，易用的交互逻辑。
               </p>
             </div>
             <div className="flex shadow-md hover:shadow-[#7b6cd2] flex-col justify-between p-5 transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
@@ -98,7 +99,8 @@ export default function Features() {
               </svg>
               <h3 className="text-xl font-semibold text-white">AI绘图和GPT无缝合作</h3>
               <p className="text-gray-200">
-                不需要 Discord ，不需要共享帐号，让 AI 和 GPT 在这里无缝合作，让你的创造力无限发挥。
+                不需要 Discord ，不需要共享帐号，不需要到处蹭各种会员，让 Midjourney 和 GPT
+                以及更多的 AI 功能在这里无缝合作，让你的创造力无限发挥。
               </p>
             </div>
             <div className="flex shadow-md hover:shadow-[#7b6cd2] flex-col justify-between p-5 transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
@@ -142,9 +144,10 @@ export default function Features() {
                 <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
               </svg>
-              <h3 className="text-xl font-semibold text-white">持续学习，持续分享</h3>
+              <h3 className="text-xl font-semibold text-white">持续学习，持续更新</h3>
               <p className="text-gray-200">
-                我们会持续学习，持续分享最新的技术，让技术为你服务，让你的创造力在这个新的时代无限发挥。
+                我们会持续学习，持续更新最新的技术，让 最新的AI
+                技术为你服务，让你的创造力在这个新的时代无限发挥。
               </p>
             </div>
           </div>

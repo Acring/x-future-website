@@ -84,17 +84,18 @@ export default function Pricing() {
                 <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">正式会员</h4>
               </div>
               <h5 className="text-xl font-semibold text-center text-gray-800">
-                <div>29.9元 / 月</div>
+                <div>39.9元 / 月</div>
                 <div className="mt-4 text-base font-normal text-gray-700">
                   如果你觉得我们的产品对你有帮助，可以选择这个版本
                 </div>
               </h5>
               <hr className="border-t border-gray-300" />
               <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
-                <Feature featureText="chatgpt 无限使用" />
+                <Feature featureText="chatgpt 无限使用，大量提示词" />
                 <Feature featureText="midjourney 绘图 200次" />
                 <Feature featureText="绘图高清化，生成 4k 高清图" />
-                <Feature featureText="更多功能持续更新" />
+                <Feature featureText="去除图片背景" />
+                <Feature featureText="更多功能持续更新（bilibili 视频总结插件，文章编辑插件，GPT 4）" />
               </ul>
               <a
                 href="#"
@@ -124,7 +125,7 @@ export default function Pricing() {
               <h5 className="text-xl font-semibold text-center text-gray-800">
                 <div>按年付费</div>
                 <div className="mt-4 text-base font-normal text-gray-700">
-                  我们不希望你在没有确定的情况下就购买这个版本，所以暂时不会开放
+                  我们不希望你在没有确定的情况下就购买这个版本，所以暂时不会开放，将来的会给长期使用的用户开放。
                 </div>
               </h5>
               <hr className="border-t border-gray-300" />

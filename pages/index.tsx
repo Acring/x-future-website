@@ -12,16 +12,6 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
 const Home: NextPage = () => {
-  const router = useRouter();
-
-  useEffect(() => {
-    // 如果存在token， 则保存token到localstorage, 并跳转到首页
-    const token = router.query.token;
-    if (token) {
-      localStorage.setItem('token', token as string);
-      router.push('/');
-    }
-  });
   return (
     <>
       <Head>

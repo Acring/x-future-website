@@ -45,18 +45,16 @@ export default function Pricing() {
                 <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl"></h4>
               </div>
               <h5 className="text-xl font-semibold text-center text-gray-800">
-                <div>9.9元 / 月</div>
-                <div className="mt-4 text-base font-normal text-gray-700">
-                  尝鲜版，仅限前500名用户，仅限一个月
-                </div>
+                <div>39.9元 / 月</div>
               </h5>
               <hr className="border-t border-gray-300" />
               <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
-                <Feature featureText="chatgpt 无限使用" />
+                <Feature featureText="chatgpt-3.5 无限使用" />
+                <Feature featureText="chatgpt-4 每天 5 次" />
                 <Feature featureText="Midjourney 绘图 10次" />
               </ul>
               <a
-                href="#"
+                href="https://x.x-future.shop?triggerPrice=true"
                 className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none"
               >
                 立即购买
@@ -84,21 +82,20 @@ export default function Pricing() {
                 <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">正式会员</h4>
               </div>
               <h5 className="text-xl font-semibold text-center text-gray-800">
-                <div>39.9元 / 月</div>
+                <div>120元 / 月</div>
                 <div className="mt-4 text-base font-normal text-gray-700">
                   如果你觉得我们的产品对你有帮助，可以选择这个版本
                 </div>
               </h5>
               <hr className="border-t border-gray-300" />
               <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
-                <Feature featureText="chatgpt 无限使用，大量提示词" />
-                <Feature featureText="midjourney 绘图 200次" />
-                <Feature featureText="绘图高清化，生成 4k 高清图" />
-                <Feature featureText="去除图片背景" />
-                <Feature featureText="更多功能持续更新（bilibili 视频总结插件，文章编辑插件，GPT 4）" />
+                <Feature featureText="chatgpt 3.5 无限量使用" />
+                <Feature featureText="gpt 4 无限量使用" />
+                <Feature featureText="midjourney 绘图无限量使用" />
+                <Feature featureText="更多功能持续更新（去除图片背景,绘图高清化，生成 4k 高清图,bilibili 视频总结插件，文章编辑插件，GPT 4）" />
               </ul>
               <a
-                href="#"
+                href="https://x.x-future.shop?triggerPrice=true"
                 className="px-5 py-2 font-semibold text-gray-100 transition duration-300 ease-in-out transform rounded-full shadow bg-gradient-to-t from-sky-800 to-sky-600 hover:-translate-y-1 hover:shadow-lg focus:outline-none"
               >
                 立即购买

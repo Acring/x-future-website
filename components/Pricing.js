@@ -54,7 +54,7 @@ export default function Pricing() {
                 <Feature featureText="Midjourney 绘图 10次" />
               </ul>
               <a
-                href="https://x.x-future.shop?triggerPrice=true"
+                href="https://x.x-future.shop?showPrice=true"
                 className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none"
               >
                 立即购买
@@ -95,7 +95,7 @@ export default function Pricing() {
                 <Feature featureText="更多功能持续更新（去除图片背景,绘图高清化，生成 4k 高清图,bilibili 视频总结插件，文章编辑插件，GPT 4）" />
               </ul>
               <a
-                href="https://x.x-future.shop?triggerPrice=true"
+                href="https://x.x-future.shop?showPrice=true"
                 className="px-5 py-2 font-semibold text-gray-100 transition duration-300 ease-in-out transform rounded-full shadow bg-gradient-to-t from-sky-800 to-sky-600 hover:-translate-y-1 hover:shadow-lg focus:outline-none"
               >
                 立即购买

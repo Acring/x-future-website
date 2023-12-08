@@ -30,5 +30,3 @@ jobs:
           TARGET: '~/x-future-website'
           SCRIPT_BEFORE: |
             cd ~/x-future-website
-            git pull
-            yarn

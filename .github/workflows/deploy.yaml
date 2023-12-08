@@ -10,11 +10,11 @@ jobs:
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
-            
+
       - name: Install Dependencies
         uses: actions/setup-node@v1
         with:
-          node-version: "16.x"
+          node-version: '16.x'
       - run: npm install -g yarn
       - run: yarn
       - run: yarn build
@@ -23,15 +23,12 @@ jobs:
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_PRIVATE_KEY }}
-          ARGS: "-avz --delete"
-          SOURCE: "./.next"
+          ARGS: '-avz --delete'
+          SOURCE: './.next'
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: "~/x-future-website"
+          TARGET: '~/x-future-website'
           SCRIPT_BEFORE: |
             cd ~/x-future-website
             git pull
             yarn
-          SCRIPT_AFTER: |
-            cd ~/x-future-website
-            pm2 restart app
